@@ -58,7 +58,7 @@ description = "File-based ORM for dataclasses."
 name = "datafiles"
 optional = false
 python-versions = ">=3.7,<4.0"
-version = "0.2b5"
+version = "0.2b6"
 
 [package.dependencies]
 cached_property = ">=1.5,<2.0"
@@ -568,7 +568,7 @@ version = "3.4.2"
 notebook = ">=4.4.1"
 
 [metadata]
-content-hash = "a542805a1452916f94f2d5017e04b8e8af56ff1a0149f61ad9f2f13ce08166c8"
+content-hash = "7e797e521e1c794b36b1d602562f6d3771df637295501db7e9794ec09226dda8"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -578,7 +578,7 @@ bleach = ["213336e49e102af26d9cde77dd2d0397afabc5a6bf2fed985dc35b5d1e285a16", "3
 cached-property = ["3a026f1a54135677e7da5ce819b0c690f156f37976f3e30c5430740725203d7f", "9217a59f14a5682da7c4b8829deadbfc194ac22e9908ccf7c8820234e80a1504"]
 classproperties = ["97d627d11df056838a9426ff15be71a5a365bca456afba8122740c39c527d5b4"]
 colorama = ["05eed71e2e327246ad6b38c540c4a3117230b19679b875190486ddd2d721422d", "f8ac84de7840f5b9c4e3347b3c1eaa50f7e49c2b07596221daec5edaabbd7c48"]
-datafiles = ["abb2ac50bd9ac5d15ab851a6e7686f5f1c4a0b1facb1aa7fdc7ba7fb001a0179", "d88540a14e0abfdf121eabd54e277bdfcccba023158bbd1224736fb95d173600"]
+datafiles = ["1ed8d3854aeb18795b757ac299555ae36711db143f1ee6497cd8d6c03b80e379", "575dfaf36b669bf0f11bc37f979daca96abf0bebcf1a7c32a5756c147288895f"]
 decorator = ["33cd704aea07b4c28b3eb2c97d288a06918275dac0ecebdaf1bc8a48d98adb9e", "cabb249f4710888a2fc0e13e9a16c343d932033718ff62e1e9bc93a9d3a9122b"]
 defusedxml = ["24d7f2f94f7f3cb6061acb215685e5125fbcdc40a857eff9de22518820b0a4f4", "702a91ade2968a82beb0db1e0766a6a273f33d4616a6ce8cde475d8e09853b20"]
 entrypoints = ["589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19", "c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"]

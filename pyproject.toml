@@ -13,7 +13,7 @@ python = "^3.7"
 jupyter = "^1.0"
 
 mypy = "=0.670"
-datafiles = "=0.2b5"
+datafiles = "=0.2b6"
 
 [build-system]
 
