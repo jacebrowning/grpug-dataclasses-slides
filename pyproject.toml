@@ -1,4 +1,5 @@
 [tool.poetry]
+
 name = "grpug-dataclasses-slides"
 version = "0.0"
 description = "2019 presentation on dataclasses for the Grand Rapids Python User's Group"
@@ -6,11 +7,15 @@ authors = ["Jace Browning <jacebrowning@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
+
 python = "^3.7"
+
 jupyter = "^1.0"
 
-[tool.poetry.dev-dependencies]
+mypy = "=0.670"
+datafiles = "=0.2b5"
 
 [build-system]
+
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
