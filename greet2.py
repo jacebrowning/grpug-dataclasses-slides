@@ -2,4 +2,4 @@
 def greet(name: str):
     print("Hello, " + name)
     
-greet("Jace")
+greet(42)
