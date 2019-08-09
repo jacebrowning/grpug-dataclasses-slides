@@ -12,6 +12,11 @@ install: .venv/flag
 poetry.lock: pyproject.toml
 	poetry lock
 
+.PHONY: test
+test: install
+	poetry run nbstripout notebooks/input.ipynb
+	cd notebooks && poetry run papermill input.ipynb output.ipynb
+
 .PHONY: run
 run: install
 	poetry run jupyter notebook --browser=firefox
